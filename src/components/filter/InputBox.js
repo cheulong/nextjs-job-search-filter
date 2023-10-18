@@ -10,7 +10,10 @@ export default function InputBox() {
     <>
       {tags.length ? (
         <div>
-          <div className="flex justify-between items-center bg-white rounded-sm flex mb-8 relative bottom-3 p-4">
+          <div
+            data-testid="inputBox"
+            className="flex justify-between items-center bg-white rounded-sm mb-8 relative bottom-3 p-4"
+          >
             <div>
               {tags.map((tag, id) => (
                 <FilterTag key={id} text={tag} removeTag={removeTags} />

@@ -14,6 +14,7 @@ export default function Tags({ text }: TagsProps) {
 
   return (
     <span
+      data-testid="tags"
       onClick={() => handleAddition(text)}
       className="h-fit px-3 hover:text-white hover:bg-cyan-700 bg-cyan-100 rounded-full m-2 cursor-pointer inline-block w-auto text-cyan-500 font-bold text-center py-1"
     >

@@ -39,7 +39,10 @@ export default function Card({ details }: CardProps) {
           </div>
           <div>
             <div className="inline-block">
-              <span className="inline-block font-semibold text-cyan-dark mr-3">
+              <span
+                data-testid="company"
+                className="inline-block font-semibold text-cyan-dark mr-3"
+              >
                 {company}
               </span>
               {New ? <Button primary={true} text={"NEW!"} /> : null}
