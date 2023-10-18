@@ -11,7 +11,12 @@ import {
 } from "./JobActions";
 import JobReducer from "./JobReducer";
 
-const initialState = {
+const initialState: {
+  jobsListing: any[];
+  tags: any[];
+  tempJobs: any[];
+  addTags: (tag: string) => undefined;
+} = {
   jobsListing: [],
   tags: [],
   tempJobs: [],
