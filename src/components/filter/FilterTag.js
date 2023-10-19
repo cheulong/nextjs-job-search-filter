@@ -4,7 +4,7 @@ export default function FilterTag({ text, removeTag }) {
   return (
     <div
       data-testid="filterTag"
-      className="rounded-sm bg-cyan-grayBg m-2 cursor-pointer inline-block w-auto  text-cyan-dark font-bold text-center py-1 pl-2"
+      className="rounded-sm bg-cyan-500 m-2 cursor-pointer inline-block w-auto  text-cyan-dark font-bold text-center py-1 pl-2"
     >
       {text}
       <span
