@@ -8,7 +8,7 @@ function Button({ primary, text }: ButtonProps) {
     <button
       data-testid="button"
       className={`py-1 px-2 mr-2 text-sm font-semibold text-white text-center rounded-ful ${
-        primary ? "bg-cyan-dark" : "bg-cyan-darker"
+        primary ? "bg-cyan-500" : "bg-cyan-700"
       }`}
     >
       {text}
