@@ -19,7 +19,6 @@ export default function Footer() {
       >
         Cheulong Sear
       </a>
-      .
     </div>
   );
 }
